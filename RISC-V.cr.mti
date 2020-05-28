@@ -1,1 +1,45 @@
+C:/Users/shrey/Documents/RISC-V/forwarding_unit/tb/tb_forwarding_unit.v {1 {vlog -work work -stats=none C:/Users/shrey/Documents/RISC-V/forwarding_unit/tb/tb_forwarding_unit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 
+} {} {}} C:/Users/shrey/Documents/RISC-V/forwarding_unit/src/forwarding_unit.v {1 {vlog -work work -stats=none {C:\Users\shrey\Documents\RISC-V\forwarding_unit\src\forwarding_unit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module forwarding_unit
+
+Top level modules:
+	forwarding_unit
+
+} {} {}} C:/Users/shrey/Documents/RISC-V/instruction_decoder/tb/tb_instruction_decoder.v {1 {vlog -work work -stats=none C:/Users/shrey/Documents/RISC-V/instruction_decoder/tb/tb_instruction_decoder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+
+} {} {}} C:/Users/shrey/Documents/RISC-V/hazard_detection_unit/tb/tb_hazard_detection_unit.v {1 {vlog -work work -stats=none C:/Users/shrey/Documents/RISC-V/hazard_detection_unit/tb/tb_hazard_detection_unit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+
+} {} {}} C:/Users/shrey/Documents/RISC-V/instruction_decoder/src/instruction_decoder.v {2 {vlog -work work -stats=none C:/Users/shrey/Documents/RISC-V/instruction_decoder/src/instruction_decoder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module instruction_decoder
+** Warning: C:/Users/shrey/Documents/RISC-V/instruction_decoder/src/instruction_decoder.v(48): (vlog-2697) MSB of part-select into 'imm' is out of bounds.
+** Warning: C:/Users/shrey/Documents/RISC-V/instruction_decoder/src/instruction_decoder.v(48): (vlog-2697) LSB of part-select into 'imm' is out of bounds.
+** Warning: C:/Users/shrey/Documents/RISC-V/instruction_decoder/src/instruction_decoder.v(54): (vlog-2697) MSB of part-select into 'imm' is out of bounds.
+** Warning: C:/Users/shrey/Documents/RISC-V/instruction_decoder/src/instruction_decoder.v(54): (vlog-2697) LSB of part-select into 'imm' is out of bounds.
+** Warning: C:/Users/shrey/Documents/RISC-V/instruction_decoder/src/instruction_decoder.v(59): (vlog-2697) MSB of part-select into 'imm' is out of bounds.
+** Warning: C:/Users/shrey/Documents/RISC-V/instruction_decoder/src/instruction_decoder.v(59): (vlog-2697) LSB of part-select into 'imm' is out of bounds.
+** Warning: C:/Users/shrey/Documents/RISC-V/instruction_decoder/src/instruction_decoder.v(65): (vlog-2697) MSB of part-select into 'imm' is out of bounds.
+** Warning: C:/Users/shrey/Documents/RISC-V/instruction_decoder/src/instruction_decoder.v(65): (vlog-2697) LSB of part-select into 'imm' is out of bounds.
+** Warning: C:/Users/shrey/Documents/RISC-V/instruction_decoder/src/instruction_decoder.v(65): (vlog-2576) [BSOB] - Bit-select into 'imm' is out of bounds.
+** Warning: C:/Users/shrey/Documents/RISC-V/instruction_decoder/src/instruction_decoder.v(70): (vlog-2697) MSB of part-select into 'imm' is out of bounds.
+** Warning: C:/Users/shrey/Documents/RISC-V/instruction_decoder/src/instruction_decoder.v(70): (vlog-2697) LSB of part-select into 'imm' is out of bounds.
+** Warning: C:/Users/shrey/Documents/RISC-V/instruction_decoder/src/instruction_decoder.v(90): (vlog-2576) [BSOB] - Bit-select into 'imm' is out of bounds.
+** Warning: C:/Users/shrey/Documents/RISC-V/instruction_decoder/src/instruction_decoder.v(91): (vlog-2697) MSB of part-select into 'imm' is out of bounds.
+** Warning: C:/Users/shrey/Documents/RISC-V/instruction_decoder/src/instruction_decoder.v(91): (vlog-2697) LSB of part-select into 'imm' is out of bounds.
+
+Top level modules:
+	instruction_decoder
+
+} {} {}} C:/Users/shrey/Documents/RISC-V/hazard_detection_unit/src/hazard_detection_unit.v {1 {vlog -work work -stats=none C:/Users/shrey/Documents/RISC-V/hazard_detection_unit/src/hazard_detection_unit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Hazard_detection_unit
+
+Top level modules:
+	Hazard_detection_unit
+
+} {} {}}
