@@ -7,7 +7,7 @@
 // Nothing 
 
 
-module Hazard_detection_unit(ID_EXMemRead, IF_IDRegisterRs1, IF_IDRegisterRs2, ID_EXRegisterRd, stall);
+module hazard_detection_unit(ID_EXMemRead, IF_IDRegisterRs1, IF_IDRegisterRs2, ID_EXRegisterRd, stall);
 
 input ID_EXMemRead;
 input[4:0] IF_IDRegisterRs1, IF_IDRegisterRs2, ID_EXRegisterRd;

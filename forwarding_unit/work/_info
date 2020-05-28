@@ -1,0 +1,31 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/18.1
+vforwarding_unit
+!s110 1590688990
+!i10b 1
+!s100 hW9T1=T7RlM1IINL_ZC@U3
+IbSUoG_HiNCIMPdNEY02A`2
+VDg1SIo80bB@j0V0VzS_@n1
+dC:/Users/shrey/Documents/RISC-V/forwarding_unit
+w1590685135
+8C:/Users/shrey/Documents/RISC-V/forwarding_unit/src/forwarding_unit.v
+FC:/Users/shrey/Documents/RISC-V/forwarding_unit/src/forwarding_unit.v
+L0 9
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1590688990.000000
+!s107 C:/Users/shrey/Documents/RISC-V/forwarding_unit/src/forwarding_unit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/shrey/Documents/RISC-V/forwarding_unit/src/forwarding_unit.v|
+!i113 1
+o-work work
+tCvgOpt 0

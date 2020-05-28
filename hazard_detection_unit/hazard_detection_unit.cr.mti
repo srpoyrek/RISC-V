@@ -1,0 +1,11 @@
+C:/Users/shrey/Documents/RISC-V/hazard_detection_unit/tb/tb_hazard_detection_unit.v {1 {vlog -work work -stats=none C:/Users/shrey/Documents/RISC-V/hazard_detection_unit/tb/tb_hazard_detection_unit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+
+} {} {}} C:/Users/shrey/Documents/RISC-V/hazard_detection_unit/src/hazard_detection_unit.v {1 {vlog -work work -stats=none C:/Users/shrey/Documents/RISC-V/hazard_detection_unit/src/hazard_detection_unit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Hazard_detection_unit
+
+Top level modules:
+	Hazard_detection_unit
+
+} {} {}}
