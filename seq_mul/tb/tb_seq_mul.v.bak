@@ -11,8 +11,8 @@ module tb_seq_mul;
 	reg [63:0] multiplicand, multiplier;
 	wire [64:0] product;
 
-    // duration for each bit = 10 * timescale = 10 * 10 ns  = 200ns
-    localparam period = 10;  
+    // duration for each bit = 10 * timescale = 10 * 10 ns  = 2000ns
+    localparam period = 100;  
 
     seq_mul U1 (Clk, Rst, multiplicand, multiplier,product); // instatitate the seq_mul
 
