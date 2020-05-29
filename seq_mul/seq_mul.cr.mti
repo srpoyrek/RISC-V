@@ -1,11 +1,1 @@
-C:/Users/shrey/Documents/RISC-V/seq_mul/tb/tb_seq_mul.v {1 {vlog -work work -stats=none C:/Users/shrey/Documents/RISC-V/seq_mul/tb/tb_seq_mul.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 
-} {} {}} C:/Users/shrey/Documents/RISC-V/seq_mul/src/seq_mul.v {1 {vlog -work work -stats=none C:/Users/shrey/Documents/RISC-V/seq_mul/src/seq_mul.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module seq_mul
-
-Top level modules:
-	seq_mul
-
-} {} {}}
