@@ -9,34 +9,34 @@ z2
 cModel Technology
 dC:/Users/shrey/Documents/RISC-V/instruction_decoder
 vseq_mul
-Z0 !s110 1590771338
+Z0 !s110 1590789444
 !i10b 1
-!s100 PR^jIC?I;QXzQY9o729H90
-I5ge7_QP6YZEH6=23]SWdX1
+!s100 VHJN6<Xc2S=JD7_aKDEf;0
+I[UdS:d4LX@UGDcQ^gA_ig0
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 Z2 dC:/Users/shrey/Documents/RISC-V/seq_mul
-w1590771323
-8C:/Users/shrey/Documents/RISC-V/seq_mul/src/seq_mul.v
-FC:/Users/shrey/Documents/RISC-V/seq_mul/src/seq_mul.v
-L0 9
+w1590789441
+8C:\Users\shrey\Documents\RISC-V\seq_mul\src\seq_mul.v
+FC:\Users\shrey\Documents\RISC-V\seq_mul\src\seq_mul.v
+L0 11
 Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1590771338.000000
-!s107 C:/Users/shrey/Documents/RISC-V/seq_mul/src/seq_mul.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/shrey/Documents/RISC-V/seq_mul/src/seq_mul.v|
+Z4 !s108 1590789444.000000
+!s107 C:\Users\shrey\Documents\RISC-V\seq_mul\src\seq_mul.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\shrey\Documents\RISC-V\seq_mul\src\seq_mul.v|
 !i113 1
 Z5 o-work work
 Z6 tCvgOpt 0
 vtb_seq_mul
 R0
 !i10b 1
-!s100 5gbLfN<n^Mf;]GzoF;FgP0
-IDTKl<>@@jbM=QomflcAA^2
+!s100 g[klJ^6_`CG00ISfBT31Y2
+Ib?[eZZDSGi;WNgOTJX[<f1
 R1
 R2
-w1590771302
+w1590789155
 8C:/Users/shrey/Documents/RISC-V/seq_mul/tb/tb_seq_mul.v
 FC:/Users/shrey/Documents/RISC-V/seq_mul/tb/tb_seq_mul.v
 L0 9

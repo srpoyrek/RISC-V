@@ -7,14 +7,14 @@
 `timescale 10 ns/100 ps  // time-unit = 10 ns, precision = 100 ps
 
 module tb_seq_mul;
-	reg Clk, Rst;
+	reg Clk, Rst,L;
 	reg [63:0] multiplicand, multiplier;
 	wire [64:0] product;
 
-    // duration for each bit = 10 * timescale = 10 * 10 ns  = 200ns
+    // duration for each bit = 10 * timescale = 10 * 10 ns
     localparam period = 10;  
 
-    seq_mul U1 (Clk, Rst, multiplicand, multiplier,product); // instatitate the seq_mul
+    seq_mul U1 (Clk, Rst, multiplicand, multiplier,product,L); // instatitate the seq_mul
 
 always begin
 	Clk = 0;
@@ -25,38 +25,49 @@ end
     
     initial // initial block executes only once
         begin
-	Rst = 1'b0;
-	#period;
 	multiplicand = 64'h0000000000000078;	//120
 	multiplier = 64'h000000000000001D;		// 29
+	Rst = 1'b0;
+	@(posedge Clk);
 	Rst = 1'b1;
-	repeat (192) begin
+	L = 1'b0;
+	repeat (96) begin
 		@(posedge Clk);
 	end
 	multiplicand = 64'h0000000000000078;	//120
 	multiplier = 64'h000000000000001C;      //
-	repeat (192) begin
+	L = 1'b1;
+	@(posedge Clk);
+	@(posedge Clk);
+	L = 1'b0;
+	repeat (64) begin
 		@(posedge Clk);
 	end
 	#period;
 	multiplicand = 64'h0000000000000054;	// 84
 	multiplier = 64'h000000000000001E ;		//30
-	Rst = 1'b1;
-	repeat (192) begin
+	L = 1'b1;
+	@(posedge Clk);
+	L = 1'b0;
+	repeat (64) begin
 		@(posedge Clk);
 	end
 	#period;
 	multiplicand =  64'h000000000000001E ;	//30
 	multiplier =  64'h000000000000001D ;	//29
-	Rst = 1'b1;
-	repeat (192) begin
+	L = 1'b1;
+	@(posedge Clk);
+	L = 1'b0;
+	repeat (64)begin
 		@(posedge Clk);
 	end
 	#period;
 	multiplicand =  64'h0000000000000078 ;	//120
 	multiplier =  64'h0000000000000054;	//84
-	Rst = 1'b1;
-	repeat (192) begin
+	L = 1'b1;
+	@(posedge Clk);
+	L = 1'b0;
+	repeat (64) begin
 		@(posedge Clk);
 	end
         #period;
