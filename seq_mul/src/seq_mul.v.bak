@@ -40,19 +40,20 @@ always@(State) begin
 		end
 
 	S_control: begin
+		repeat (64) begin
 		if (product[0] == 1'b1) begin
 			product[128:64] = product[128:64] + mutliplicand;
 		end
 		product <= product >> 1;
+		count <= count + 1;
+		end
 		if (count < 63) begin
-			count <= count + 6'b000001;
-			StateNext <= S_control;
-		end		
-		//StateNext <= S_pro;
+		StateNext <= S_pro;
+		end
 		end
 
 	S_pro: begin 
-			y <= product[64:0];
+		y <= product[64:0];
 		end
 	endcase
 end
