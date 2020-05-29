@@ -44,15 +44,14 @@ always@(State) begin
 			product[128:64] = product[128:64] + mutliplicand;
 		end
 		product <= product >> 1;
-		StateNext <= S_pro;
-		end
-
-	S_pro: begin 
 		if (count < 63) begin
 			count <= count + 6'b000001;
 			StateNext <= S_control;
+		end		
+		//StateNext <= S_pro;
 		end
-		else
+
+	S_pro: begin 
 			y <= product[64:0];
 		end
 	endcase
