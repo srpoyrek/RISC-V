@@ -1,7 +1,7 @@
 //Project: RISC-V 32 bit Architecture
 //Module: tb_seq_mul
 //Author: Shreyas Poyrekar
-//Updated: 05/28/2020
+//Updated: 05/29/2020
 // test bench got Mulitplication unit 64-bit integer
 
 `timescale 10 ns/100 ps  // time-unit = 10 ns, precision = 100 ps

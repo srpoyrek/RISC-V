@@ -1,10 +1,12 @@
 //Project: RISC-V 32 bit Architecture
 //Module: seq_mul(SM)
 //Author: Shreyas Poyrekar
-//Updated: 05/27/2020
+//Updated: 05/29/2020
 // Mulitplication unit 64-bit integer
-//Updates:
-// 
+//Updates: Fixed the code FSM
+// needed 128 cycles to give the output
+// unsigned 64-bit multiplier
+// output is [64:0] bit of the product register. 
 
 module seq_mul(Clk, Rst, a, b, y);
 
