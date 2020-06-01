@@ -9,44 +9,44 @@ z2
 cModel Technology
 dC:/intelFPGA_lite/18.1
 vforwarding_unit
-!s110 1591058042
+Z0 !s110 1591042603
 !i10b 1
 !s100 hW9T1=T7RlM1IINL_ZC@U3
-I;5;]:RgfE;C;cX@hnW<MY0
-Z0 VDg1SIo80bB@j0V0VzS_@n1
-Z1 dD:/RISC-V Project/RISC-V_Master/RISC-V/forwarding_unit
-w1591057541
-8D:/RISC-V Project/RISC-V_Master/RISC-V/forwarding_unit/src/forwarding_unit.v
-FD:/RISC-V Project/RISC-V_Master/RISC-V/forwarding_unit/src/forwarding_unit.v
+IbSUoG_HiNCIMPdNEY02A`2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/shrey/Documents/RISC-V/forwarding_unit
+w1590685135
+8C:/Users/shrey/Documents/RISC-V/forwarding_unit/src/forwarding_unit.v
+FC:/Users/shrey/Documents/RISC-V/forwarding_unit/src/forwarding_unit.v
 L0 9
-Z2 OV;L;10.5b;63
+Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-!s108 1591058042.000000
-!s107 D:/RISC-V Project/RISC-V_Master/RISC-V/forwarding_unit/src/forwarding_unit.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/RISC-V Project/RISC-V_Master/RISC-V/forwarding_unit/src/forwarding_unit.v|
+Z4 !s108 1591042603.000000
+!s107 C:/Users/shrey/Documents/RISC-V/forwarding_unit/src/forwarding_unit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/shrey/Documents/RISC-V/forwarding_unit/src/forwarding_unit.v|
 !i113 1
-Z3 o-work work
-Z4 tCvgOpt 0
+Z5 o-work work
+Z6 tCvgOpt 0
 vtb_forwarding_unit
-!s110 1591058041
+R0
 !i10b 1
 !s100 `O3VYBMJD;?MHdiXlbzR=0
-Ihikjd=_JE:Yhbc9<6cMeo1
-R0
+Ig0J6:e@UC?nMgSfO;Mh[20
 R1
-w1590751413
-8D:/RISC-V Project/RISC-V_Master/RISC-V/forwarding_unit/tb/tb_forwarding_unit.v
-FD:/RISC-V Project/RISC-V_Master/RISC-V/forwarding_unit/tb/tb_forwarding_unit.v
-L0 9
 R2
+w1591041479
+8C:/Users/shrey/Documents/RISC-V/forwarding_unit/tb/tb_forwarding_unit.v
+FC:/Users/shrey/Documents/RISC-V/forwarding_unit/tb/tb_forwarding_unit.v
+L0 9
+R3
 r1
 !s85 0
 31
-!s108 1591058041.000000
-!s107 D:/RISC-V Project/RISC-V_Master/RISC-V/forwarding_unit/tb/tb_forwarding_unit.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/RISC-V Project/RISC-V_Master/RISC-V/forwarding_unit/tb/tb_forwarding_unit.v|
-!i113 1
-R3
 R4
+!s107 C:/Users/shrey/Documents/RISC-V/forwarding_unit/tb/tb_forwarding_unit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/shrey/Documents/RISC-V/forwarding_unit/tb/tb_forwarding_unit.v|
+!i113 1
+R5
+R6

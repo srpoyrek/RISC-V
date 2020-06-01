@@ -12,25 +12,20 @@ module seq_mul(Clk, Rst, a, b, y, L);
 
 input [63:0] a, b; // multiplicand, multiplier
 output reg [64:0] y ;
-input Clk, Rst,L;
+input Clk, Rst, L;
 reg [6:0] count;
 reg [128:0] product = 0; //reg
 reg [63:0] mutliplicand; //reg
 
 always@(posedge Clk) begin  // always block to change the state
-	if(Rst==1'b0) begin
+	if(Rst==1'b0 || L==1'b1) begin
 		product[63:0] <= b;
 		mutliplicand <= a;
 		count <= 7'b000000;
+		y <= y;
 	end
 	else begin
-	if (L ==1'b1) begin 
-		product[63:0] <= b;
-		mutliplicand <= a;
-		count <= 7'b000000;
-	end
-	else begin
-		if (product[0] == 1'b1) begin
+		if (product[0]) begin
 			product[128:64] = product[128:64] + mutliplicand;
 		end
 		product = product >> 1;
@@ -41,7 +36,6 @@ always@(posedge Clk) begin  // always block to change the state
 			y <= product[64:0];
 			count <= 7'b000000;
 		end
-	 end 
 	end
 	
 end
