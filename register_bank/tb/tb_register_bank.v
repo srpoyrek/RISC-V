@@ -1,0 +1,53 @@
+//Project: RISC-V 32 bit Architecture
+//Module: tb_register_bank.v
+//Author: Shreyas Poyrekar
+//Updated: 06/03/2020
+//test bench for Register bank module having 32 registers each of 32 bit data
+
+`timescale 10 ns/100 ps  // time-unit = 10 ns, precision = 100 ps
+
+module tb_register_bank;
+	
+	parameter n_addr = 5;  //number of address bits for a registers
+	parameter n_reg = 32; // number of registers
+	parameter n_bit = 2**n_addr; // data bits stored in each registers
+
+
+	reg Clk , Rst, Reg_write;
+	reg [n_addr-1:0] Rd_reg_1, Rd_reg_2, Wr_reg;
+	reg [n_bit-1:0] Wr_data;
+	wire [n_bit-1:0] Rd_data_1, Rd_data_2; // 32-bit datat at given register address.
+
+    // duration for each bit = 10 * timescale = 10 * 10 ns
+    localparam period = 10;  
+
+    register_bank U1(Clk, Rst, Rd_reg_1, Rd_reg_2, Wr_reg, Wr_data, Rd_data_1,Rd_data_2, Reg_write); // instatitate the register bank module
+
+initial
+	Clk = 0; //set clk to 0
+always
+	#period Clk = ~Clk;
+    
+initial // initial block executes only once
+        begin
+	Rst = 0;
+	@(posedge Clk);
+	Rst = 1;
+	Reg_write = 1;
+	Wr_reg = 5'h9;
+	Wr_data = 32'h2453e;
+	@(posedge Clk);
+	Wr_reg = 5'h3;
+	Wr_data = 32'h3423f;
+	@(posedge Clk);
+	Reg_write = 0;
+	Rd_reg_1 = 5'h9;
+	Rd_reg_2 = 5'h3;
+	@(posedge Clk);
+	$stop;
+end
+
+initial
+	$monitor($time," data in memory location A = %h  B = %h", Rd_data_1,Rd_data_2); 
+
+endmodule
