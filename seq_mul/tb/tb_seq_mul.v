@@ -16,22 +16,27 @@ module tb_seq_mul;
 
     seq_mul U1 (Clk, Rst, multiplicand, multiplier,product,L); // instatitate the seq_mul
 
-always begin
-	Clk = 0;
-	#period;
-	Clk=1;
-	#period;
-end
-    
-    initial // initial block executes only once
+initial
+	Clk = l'bO; //set clk to 0
+always
+	#period Clk = -Clk;
+
+  initial // initial block executes only once
         begin
 	multiplicand = 64'h0000000000000078;	//120
 	multiplier = 64'h000000000000001D;		// 29
 	Rst = 1'b0;
 	@(posedge Clk);
+<<<<<<< HEAD
 	Rst = 1'b1;
 	L = 1'b0;
 	repeat (96) begin
+=======
+	@(posedge Clk);
+	Rst = 1'b1;
+	L = 1'b0;
+	repeat (65) begin
+>>>>>>> 4b5cb43826eefecaef925b59da43e6aa0057cc10
 		@(posedge Clk);
 	end
 	multiplicand = 64'h0000000000000078;	//120
@@ -40,7 +45,11 @@ end
 	@(posedge Clk);
 	@(posedge Clk);
 	L = 1'b0;
+<<<<<<< HEAD
 	repeat (64) begin
+=======
+	repeat (65) begin
+>>>>>>> 4b5cb43826eefecaef925b59da43e6aa0057cc10
 		@(posedge Clk);
 	end
 	#period;
@@ -48,8 +57,14 @@ end
 	multiplier = 64'h000000000000001E ;		//30
 	L = 1'b1;
 	@(posedge Clk);
+<<<<<<< HEAD
 	L = 1'b0;
 	repeat (64) begin
+=======
+	@(posedge Clk);
+	L = 1'b0;
+	repeat (65) begin
+>>>>>>> 4b5cb43826eefecaef925b59da43e6aa0057cc10
 		@(posedge Clk);
 	end
 	#period;
@@ -57,8 +72,14 @@ end
 	multiplier =  64'h000000000000001D ;	//29
 	L = 1'b1;
 	@(posedge Clk);
+<<<<<<< HEAD
 	L = 1'b0;
 	repeat (64)begin
+=======
+	@(posedge Clk);
+	L = 1'b0;
+	repeat (65)begin
+>>>>>>> 4b5cb43826eefecaef925b59da43e6aa0057cc10
 		@(posedge Clk);
 	end
 	#period;
@@ -66,11 +87,22 @@ end
 	multiplier =  64'h0000000000000054;	//84
 	L = 1'b1;
 	@(posedge Clk);
+<<<<<<< HEAD
 	L = 1'b0;
 	repeat (64) begin
+=======
+	@(posedge Clk);
+	L = 1'b0;
+	repeat (65) begin
+>>>>>>> 4b5cb43826eefecaef925b59da43e6aa0057cc10
 		@(posedge Clk);
 	end
-        #period;
+	L = 1'b1;
+        
         end
+
+// Monitor the outputs
+initial
+$monitor ($time, " Output q = %d" , product) ; 
 	
 endmodule
