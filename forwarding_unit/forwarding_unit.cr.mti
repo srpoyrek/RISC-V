@@ -1,7 +1,18 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 {D:/RISC-V Project/RISC-V_Master/RISC-V/forwarding_unit/src/forwarding_unit.v} {1 {vlog -work work -stats=none {D:/RISC-V Project/RISC-V_Master/RISC-V/forwarding_unit/src/forwarding_unit.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module forwarding_unit
+=======
+C:/Users/shrey/Documents/RISC-V/forwarding_unit/tb/tb_forwarding_unit.v {1 {vlog -work work -stats=none C:/Users/shrey/Documents/RISC-V/forwarding_unit/tb/tb_forwarding_unit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_forwarding_unit
+
+Top level modules:
+	tb_forwarding_unit
+=======
+>>>>>>> 4b5cb43826eefecaef925b59da43e6aa0057cc10
+>>>>>>> 1233055b89b0c3dfad5f8babb49ec8fc06e26b63
 
 Top level modules:
 	forwarding_unit
