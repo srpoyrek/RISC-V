@@ -7,7 +7,7 @@
 //Updates:
 
 
-module Program_Counter(PC_Value, clk, rst, stall, PCWrite, PCSrc);
+module program_counter(PC_Value, clk, rst, stall, PCWrite, PCSrc);
 
 input clk, rst;
 input stall, PCWrite;//control signals stall -> for stall, PCWrite -> for indicating branch

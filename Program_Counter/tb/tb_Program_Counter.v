@@ -5,5 +5,5 @@
 //Updates the Program Counter value
 //Updates:
 
-module tb_Program_Counter();
+module tb_program_counter();
 endmodule

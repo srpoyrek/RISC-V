@@ -8,47 +8,45 @@ z2
 !i10f 100
 cModel Technology
 dC:/intelFPGA/18.1
-vProgram_Counter
-Z0 !s110 1591251409
+vprogram_counter
+Z0 !s110 1591413472
 !i10b 1
-!s100 W8>GH5]2=keUFCea8GMFQ3
-IC_GW0:<JhUnanfCmD_Gfk2
+!s100 2Z`^g@QB^1Yk8D6XL9]Bo0
+IHCJIf]LKn4K5Bi<QLUoM03
 Z1 VDg1SIo80bB@j0V0VzS_@n1
-Z2 dD:/RISC-V Project/RISC-V_Master/RISC-V/Program_Counter
-w1591251401
-8D:/RISC-V Project/RISC-V_Master/RISC-V/Program_Counter/src/Program_Counter.v
-FD:/RISC-V Project/RISC-V_Master/RISC-V/Program_Counter/src/Program_Counter.v
+Z2 dD:/RISC-V Project/RISC-V_Master/RISC-V/program_counter
+w1591413438
+8D:/RISC-V Project/RISC-V_Master/RISC-V/program_counter/src/program_counter.v
+FD:/RISC-V Project/RISC-V_Master/RISC-V/program_counter/src/program_counter.v
 L0 10
 Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-!s108 1591251408.000000
-!s107 D:/RISC-V Project/RISC-V_Master/RISC-V/Program_Counter/src/Program_Counter.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/RISC-V Project/RISC-V_Master/RISC-V/Program_Counter/src/Program_Counter.v|
+!s108 1591413471.000000
+!s107 D:/RISC-V Project/RISC-V_Master/RISC-V/program_counter/src/program_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/RISC-V Project/RISC-V_Master/RISC-V/program_counter/src/program_counter.v|
 !i113 1
 Z4 o-work work
 Z5 tCvgOpt 0
-n@program_@counter
-vtb_Program_Counter
+vtb_program_counter
 R0
 !i10b 1
-!s100 jLO>E>F@ZW]I^SFjo5=<_0
-IfJX][@@JaXXTWKfz3N<kS2
+!s100 Kng6^lY?oMk7SYSN[lmi^1
+I7::gbREBbXeJTVabWbMO<2
 R1
 R2
-w1591183642
-8D:/RISC-V Project/RISC-V_Master/RISC-V/Program_Counter/tb/tb_Program_Counter.v
-FD:/RISC-V Project/RISC-V_Master/RISC-V/Program_Counter/tb/tb_Program_Counter.v
+w1591413448
+8D:/RISC-V Project/RISC-V_Master/RISC-V/program_counter/tb/tb_program_counter.v
+FD:/RISC-V Project/RISC-V_Master/RISC-V/program_counter/tb/tb_program_counter.v
 L0 8
 R3
 r1
 !s85 0
 31
-!s108 1591251409.000000
-!s107 D:/RISC-V Project/RISC-V_Master/RISC-V/Program_Counter/tb/tb_Program_Counter.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/RISC-V Project/RISC-V_Master/RISC-V/Program_Counter/tb/tb_Program_Counter.v|
+!s108 1591413472.000000
+!s107 D:/RISC-V Project/RISC-V_Master/RISC-V/program_counter/tb/tb_program_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/RISC-V Project/RISC-V_Master/RISC-V/program_counter/tb/tb_program_counter.v|
 !i113 1
 R4
 R5
-ntb_@program_@counter

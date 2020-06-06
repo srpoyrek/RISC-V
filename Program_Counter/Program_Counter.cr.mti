@@ -1,15 +1,15 @@
-{D:/RISC-V Project/RISC-V_Master/RISC-V/Program_Counter/src/Program_Counter.v} {1 {vlog -work work -stats=none {D:/RISC-V Project/RISC-V_Master/RISC-V/Program_Counter/src/Program_Counter.v}
+{D:/RISC-V Project/RISC-V_Master/RISC-V/program_counter/src/program_counter.v} {1 {vlog -work work -stats=none {D:/RISC-V Project/RISC-V_Master/RISC-V/program_counter/src/program_counter.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module Program_Counter
+-- Compiling module program_counter
 
 Top level modules:
-	Program_Counter
+	program_counter
 
-} {} {}} {D:/RISC-V Project/RISC-V_Master/RISC-V/Program_Counter/tb/tb_Program_Counter.v} {1 {vlog -work work -stats=none {D:/RISC-V Project/RISC-V_Master/RISC-V/Program_Counter/tb/tb_Program_Counter.v}
+} {} {}} {D:/RISC-V Project/RISC-V_Master/RISC-V/program_counter/tb/tb_program_counter.v} {1 {vlog -work work -stats=none {D:/RISC-V Project/RISC-V_Master/RISC-V/program_counter/tb/tb_program_counter.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module tb_Program_Counter
+-- Compiling module tb_program_counter
 
 Top level modules:
-	tb_Program_Counter
+	tb_program_counter
 
 } {} {}}
