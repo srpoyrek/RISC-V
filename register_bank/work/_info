@@ -9,13 +9,13 @@ z2
 cModel Technology
 dC:/intelFPGA_lite/18.1
 vregister_bank
-Z0 !s110 1591219785
+!s110 1591910172
 !i10b 1
 !s100 WOQdjM3=cZBBBMA_C3ld<3
 IKbVlVC58dM>nQOjB5GJLk3
-Z1 VDg1SIo80bB@j0V0VzS_@n1
-Z2 dC:/Users/shrey/Documents/RISC-V/register_bank
-w1591219779
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/shrey/Documents/RISC-V/register_bank
+Z2 w1591393695
 8C:/Users/shrey/Documents/RISC-V/register_bank/src/register_bank.v
 FC:/Users/shrey/Documents/RISC-V/register_bank/src/register_bank.v
 L0 8
@@ -23,30 +23,30 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1591219785.000000
+!s108 1591910172.000000
 !s107 C:/Users/shrey/Documents/RISC-V/register_bank/src/register_bank.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/shrey/Documents/RISC-V/register_bank/src/register_bank.v|
 !i113 1
-Z5 o-work work
-Z6 tCvgOpt 0
+Z4 o-work work
+Z5 tCvgOpt 0
 vtb_register_bank
-R0
+!s110 1591910173
 !i10b 1
 !s100 QF_cWTEYh5Sm=zZA:zze^2
-IZj4<cX0AmKVCRTe>mPjzg0
+Ia<:T7BjCi6Z2`^BgMZ?kM0
+R0
 R1
 R2
-w1591219688
-8C:\Users\shrey\Documents\RISC-V\register_bank\tb\tb_register_bank.v
-FC:\Users\shrey\Documents\RISC-V\register_bank\tb\tb_register_bank.v
+8C:/Users/shrey/Documents/RISC-V/register_bank/tb/tb_register_bank.v
+FC:/Users/shrey/Documents/RISC-V/register_bank/tb/tb_register_bank.v
 L0 9
 R3
 r1
 !s85 0
 31
-R4
-!s107 C:\Users\shrey\Documents\RISC-V\register_bank\tb\tb_register_bank.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\shrey\Documents\RISC-V\register_bank\tb\tb_register_bank.v|
+!s108 1591910173.000000
+!s107 C:/Users/shrey/Documents/RISC-V/register_bank/tb/tb_register_bank.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/shrey/Documents/RISC-V/register_bank/tb/tb_register_bank.v|
 !i113 1
+R4
 R5
-R6

@@ -1,4 +1,4 @@
-C:/Users/shrey/Documents/RISC-V/register_bank/tb/tb_register_bank.v {1 {vlog -work work -stats=none {C:\Users\shrey\Documents\RISC-V\register_bank\tb\tb_register_bank.v}
+C:/Users/shrey/Documents/RISC-V/register_bank/tb/tb_register_bank.v {1 {vlog -work work -stats=none C:/Users/shrey/Documents/RISC-V/register_bank/tb/tb_register_bank.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module tb_register_bank
 
