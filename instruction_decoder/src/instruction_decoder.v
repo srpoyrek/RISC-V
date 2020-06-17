@@ -22,7 +22,7 @@ output reg[6:0] opcode; // goes to control unit
 output reg[4:0] rd,rs1,rs2; //to the register bank
 output reg[2:0] funct3;
 output reg[6:0] funct7;
-output reg[31:0] imm = 20'h00000; // jump address to be calculated
+output reg[31:0] imm; // jump address to be calculated
 
 always @ (machine_code)
    begin
@@ -34,7 +34,7 @@ always @ (machine_code)
 		rs1 = machine_code[19:15];
 		rs2 = machine_code[24:20];
 		funct7 = machine_code[31:25];
-		imm = 20'hxxxxx;
+		imm = imm;
 	   end
 	else if (machine_code[6:0] == 7'b0010011 || machine_code[6:0] == 0000011 || machine_code[6:0] == 7'b1100111 || machine_code[6:0] == 7'b1110011 ) //I-type
 	   // immediate inst, load inst, jp and link reg, envirnoment call & break
@@ -46,17 +46,19 @@ always @ (machine_code)
 		rs2 = 5'bxxxxx;
 		funct7 = 7'bxxxxxxx;
 		imm[11:0] = machine_code[31:20];
+		imm[31:12] = 20'h00000;
 	   end
 	else if (machine_code[6:0] == 7'b0100011 ) //S-type 
 	   begin
 		opcode = machine_code[6:0];
 		rd = 5'bxxxxx;
-		imm[4:0] = machine_code[11:7];
 		funct3 = machine_code[14:12];
 		rs1 = machine_code[19:15];
 		rs2 = machine_code[24:20];
 		funct7 = 7'bxxxxxxx;
+		imm[4:0] = machine_code[11:7];
 		imm[11:5] = machine_code[31:25];
+		imm [31:12] = 20'h00000;
 	   end
 	else if (machine_code[6:0] == 7'b1100011 ) //B-type 
 	   begin

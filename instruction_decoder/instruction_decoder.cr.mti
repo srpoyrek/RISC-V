@@ -1,1 +1,15 @@
+D:/Projects/RISC-V/instruction_decoder/tb/tb_instruction_decoder.v {1 {vlog -work work -stats=none D:/Projects/RISC-V/instruction_decoder/tb/tb_instruction_decoder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_instruction_decoder
 
+Top level modules:
+	tb_instruction_decoder
+
+} {} {}} D:/Projects/RISC-V/instruction_decoder/src/instruction_decoder.v {1 {vlog -work work -stats=none D:/Projects/RISC-V/instruction_decoder/src/instruction_decoder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module instruction_decoder
+
+Top level modules:
+	instruction_decoder
+
+} {} {}}

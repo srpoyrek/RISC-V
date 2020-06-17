@@ -9,23 +9,44 @@ z2
 cModel Technology
 dC:/Users/shrey/Documents/RISC-V/hazard_detection_unit
 vinstruction_decoder
-!s110 1590689155
+Z0 !s110 1592282170
 !i10b 1
-!s100 jDEX5o=<J0HY_2R?BO@733
-INHcbJ<JhSbb`mA<ePiXbi1
-VDg1SIo80bB@j0V0VzS_@n1
-dC:/Users/shrey/Documents/RISC-V/instruction_decoder
-w1590685441
-8C:/Users/shrey/Documents/RISC-V/instruction_decoder/src/instruction_decoder.v
-FC:/Users/shrey/Documents/RISC-V/instruction_decoder/src/instruction_decoder.v
+!s100 Dnfd88dKW_Zz[f`d9nd5O3
+IY=9YhJj<bWoDl3AU8@P<M2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Projects/RISC-V/instruction_decoder
+w1592266856
+8D:/Projects/RISC-V/instruction_decoder/src/instruction_decoder.v
+FD:/Projects/RISC-V/instruction_decoder/src/instruction_decoder.v
 L0 17
-OV;L;10.5b;63
+Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-!s108 1590689155.000000
-!s107 C:/Users/shrey/Documents/RISC-V/instruction_decoder/src/instruction_decoder.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/shrey/Documents/RISC-V/instruction_decoder/src/instruction_decoder.v|
+!s108 1592282169.000000
+!s107 D:/Projects/RISC-V/instruction_decoder/src/instruction_decoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Projects/RISC-V/instruction_decoder/src/instruction_decoder.v|
 !i113 1
-o-work work
-tCvgOpt 0
+Z4 o-work work
+Z5 tCvgOpt 0
+vtb_instruction_decoder
+R0
+!i10b 1
+!s100 mNOTDBLZU;oQJ=[e6<]Em1
+IgSSaEOm@S]13;Z]4QnP_a0
+R1
+R2
+w1592282159
+8D:/Projects/RISC-V/instruction_decoder/tb/tb_instruction_decoder.v
+FD:/Projects/RISC-V/instruction_decoder/tb/tb_instruction_decoder.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1592282170.000000
+!s107 D:/Projects/RISC-V/instruction_decoder/tb/tb_instruction_decoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Projects/RISC-V/instruction_decoder/tb/tb_instruction_decoder.v|
+!i113 1
+R4
+R5
