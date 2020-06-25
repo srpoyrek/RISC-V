@@ -22,7 +22,6 @@ output reg [1:0] ALUOP; //input to ALU Control unit
 
 always @ (opcode)
 
-   begin
 	if (opcode[6:0] == 7'b0110011) //R-type
 	   begin
 		ALUSrc = 1'b0;
@@ -122,7 +121,7 @@ always @ (opcode)
 		JumpReg = 1'b0;
 		ALUOP = 2'b11;
 	   end
-	else if (opcode[6:0] == 7'b1110011) //***en
+	else if (opcode[6:0] == 7'b1110011) //en
 	   begin
 	
 	   end
@@ -137,5 +136,5 @@ always @ (opcode)
 		JumpReg = JumpReg;
 		ALUOP = ALUOP;
 	   end
-   end
+	end
 endmodule

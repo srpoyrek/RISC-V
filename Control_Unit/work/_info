@@ -1,0 +1,31 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/intelFPGA/18.0
+vcontrol_unit
+!s110 1593044870
+!i10b 1
+!s100 ]V4fZT:b6=E@DQin2XGRV3
+IYk8o3Q;`N=lUcC84WjIVD2
+VDg1SIo80bB@j0V0VzS_@n1
+dD:/Projects/RISC-V/Control_Unit
+w1593044865
+8D:/Projects/RISC-V/Control_Unit/src/control_unit.v
+FD:/Projects/RISC-V/Control_Unit/src/control_unit.v
+L0 10
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1593044869.000000
+!s107 D:/Projects/RISC-V/Control_Unit/src/control_unit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Projects/RISC-V/Control_Unit/src/control_unit.v|
+!i113 1
+o-work work
+tCvgOpt 0
