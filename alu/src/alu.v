@@ -38,9 +38,6 @@ always @(in1, in2, op_select) begin
         15: begin out = 0; zero_flag = (in1 >= in2)?1:0; end
         16: begin out = 0; zero_flag = 1; end//for jump
         default: begin out = 0; zero_flag = 0; end
-
-
-
     endcase
 end
 endmodule

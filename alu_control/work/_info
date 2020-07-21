@@ -1,0 +1,31 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/18.1
+valu_control
+!s110 1595300232
+!i10b 1
+!s100 C2JC6ZHEOB0k<Bm0d1=Qg3
+IPJWM[oc]Cz>zj00W^IAfc2
+VDg1SIo80bB@j0V0VzS_@n1
+dC:/Users/shrey/Documents/RISC-V/alu_control
+w1595300206
+8C:\Users\shrey\Documents\RISC-V\alu_control\src\alu_control.v
+FC:\Users\shrey\Documents\RISC-V\alu_control\src\alu_control.v
+L0 8
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1595300231.000000
+!s107 C:\Users\shrey\Documents\RISC-V\alu_control\src\alu_control.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\shrey\Documents\RISC-V\alu_control\src\alu_control.v|
+!i113 1
+o-work work
+tCvgOpt 0

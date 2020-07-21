@@ -49,7 +49,9 @@ always @(alu_op, func3, sign_bit) begin
            		endcase 
         	end
 		//The register JAL register do not use the ALU , JALR uses ADD.
-        	//2'b11: 	alu_slect = 5'bxxxxx;				// JAL no ALU operation 
+        	2'b11: 	alu_slect = 5'bxxxxx;				// JAL no ALU operations
+
+			
 		// DEFAULT UNKOWN
         	default: alu_slect = 5'bxxxxx; 					// DEFAULT UNKOWN
     	endcase
