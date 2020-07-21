@@ -1,2 +1,2 @@
 # RISC-V
-Verilog Implementation of RISC-V
+Implementing a five-stage pipeline RSIC-V architecture (RV32I Core instruction set) using Verilog HDL. All the functional modules required including the Hazard detection unit, Forwarding Unit, Branch Prediction, and the Five pipeline stages are simulated and verified the functional testing with test benches on ModelSim.
